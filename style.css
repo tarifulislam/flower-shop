@@ -1,0 +1,389 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+.btn-primary{
+    padding: 15px 30px;
+    border-radius: 8px;
+    background: #E55473;
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.banner_container{
+    height: 100vh;
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 150px 0px 150px;
+
+ 
+}
+.banner_content_left{
+    width: 45%;
+}
+
+.banner_content_left h2{
+    color: #272727;
+    font-family: 'Poppins', sans-serif;
+    font-size: 55px;
+    font-weight: 800;
+    margin-top: 100px;
+}
+
+.banner_content_left p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    padding-right: 25px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+
+.banner_content_right{
+    width: 45%;
+    position: relative;
+}
+.banner_content_right img{
+    height: 652px;
+    position: absolute;
+    bottom: 0;
+}
+
+/* ================================================= */
+
+.feature-section{
+    padding: 80px 150px;
+
+}
+.feature-box{
+    text-align: center;
+    width: 450px;
+    margin: 0 auto;
+}
+
+.feature-box h2{
+    color: #272727;
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.feature-box p{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+.feature_galary{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature_galary_item{
+    width: 31%;
+}
+.feature_galary_image{
+    border-radius: 195px 195px 0px 0px;
+    padding-top: 25px;
+    height: 440px;
+    position: relative;
+}
+
+.feature_galary_image img{
+    height: 350px;
+    position: absolute;
+    bottom: 0;
+    left: 56px;
+}
+
+.feature_galary_image_caption{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 15px;
+}
+
+.feature_galary_image_caption p{
+    color: #272727;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.vaste_color1{
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.vaste_color2{
+    background: rgba(5, 151, 160, 0.15);
+    
+}
+.vaste_color2 img{
+    margin-left: -20px;
+}
+
+.vaste_color3{
+    background: rgba(71, 125, 17, 0.15);
+    
+}
+
+/* =========================================== */
+
+.support_section{
+    display: flex;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    justify-content: center;
+    text-align: center;
+    padding: 50px 0px;
+    margin-top: 55px;
+    
+}
+.support_item{
+    width: 31%;
+}
+
+.support_item img{}
+.support_item p{
+    margin-top: 12px;
+    color: rgba(39, 39, 39, 0.80);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+/* ======================================================== */
+.deal_section{
+    padding: 70px  220px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: space-between;
+}
+
+.deal_content {
+    width: 48%;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.deal_content h2{
+    color: #272727;
+    font-size: 35px;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.deal_content span{
+    color: #E55473;
+}
+
+
+.deal_content p{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 16px 0px; 
+}
+.deal_content button{}
+
+.deal_image{
+    width: 42%;
+}
+
+.deal_image img{
+    width: 210px;
+    margin-left: 40px;
+}
+
+/* .sell_product========================================================== */
+
+.sell_product{
+    padding: 0px 150px 70px 150px;
+
+}
+
+
+.product_dtls{
+    display: flex;
+    justify-content: space-between;
+}
+
+.product_content{
+    width: 31%;
+    margin-top: 60px;
+}
+
+.product_content h2{
+    color: #E55473;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+
+}
+.product_content h3{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+  
+}
+.product_content p{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 16px 0px; 
+}
+
+.product_dtls img{
+    width: 31%;
+}
+
+/* social_midea================================================= */
+
+.social_midea{
+    padding: 70px 150px;
+
+}
+
+.social_header{
+    text-align: center;
+    width: 450px;
+    margin: 0 auto;
+}
+
+.social_header h2{
+    color: #272727;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.social_header p{
+    color: #272727;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+
+}
+
+.social_midea_galary{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+.social_midea_galary img{
+    width: 23%;
+}
+
+.deals_section{
+    padding: 85px 0px;
+    background-image: url("Asset/Rectangle 9.png");
+    margin-top: 70px;
+    border-radius: 5px;
+    background-size: cover;
+
+}
+
+.deals_header{
+    text-align: center;
+}
+
+.deals_header h2{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+}
+
+.deals_header p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+.input_section{
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.input_section input[type ="email"]{
+    background: #FFF;
+    padding: 15px;
+    width: 400px;
+    margin-right: 12px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+}
+.input_section button{
+    padding: 11px 30px;
+    border-radius: 8px;
+    background: #E55473;
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* footer================================================= */
+
+footer{
+    background: #111010;
+}
+.footer_element{
+    padding: 50px 0px;
+    text-align: center;
+    width: 530px;
+    margin: 0 auto;
+}
+
+.footer_element h2{
+    color: #E55473;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+}
+
+.footer_element span{
+    color: #FFFFFF;
+}
+
+.footer_element p{
+    color: rgba(255, 255, 255, 0.90);
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+
+.footer_element small{
+    color: rgba(255, 255, 255, 0.40);
+    font-weight: 200;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
